@@ -7,3 +7,4 @@ elif n >= 70:
 else n >= 50:
      print("Tas ir Viedejs")
  
+ne sdelano
