@@ -1,10 +1,11 @@
-vertejums = n
 n = int(input("Ievadi punkti: "))
 if n >= 90:
     print("Tas ir Augsts")
 elif n >= 70:
      print("Tas ir Optimals")
-else n >= 50:
-     print("Tas ir Viedejs")
+else:
+    n >= 50
+print("Tas ir Viedejs")
+
  
 ne sdelano
