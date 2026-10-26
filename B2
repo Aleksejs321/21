@@ -1,1 +1,12 @@
+def ar_atlaidi(cena, atlaide=10):
+    return cena - atlaide
+    
+
+cenas = [100, 250, 40]
+kopa = 0
+
+for c in cenas:
+    kopa = kopa + ar_atlaidi(c)
+
+print("Kopā:", round(kopa, 2))
 
