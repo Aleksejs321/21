@@ -1,10 +1,9 @@
-atzimes = [4, 9, 6, 10, 3, 8]
-labas = []
+n = 5
+while n > 0:
+    print(n)
+    n  =
+    n -= 1
+   
+print("Starts!")
 
-for a in atzimes:
-       labas.append(a>=7)
-
-print("Labās atzīmes:", labas)
-print("Cik:", len(labas))
-print("Vidējā no labajām:", sum(labas) / len(labas))
 
