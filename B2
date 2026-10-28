@@ -1,12 +1,6 @@
-def ar_atlaidi(cena, atlaide=10):
-    return cena - atlaide
-    
 
-cenas = [100, 250, 40]
-kopa = 0
+def ar_pvn(cena, likme=21):
+    return cena - cena * likme / 100
 
-for c in cenas:
-    kopa = kopa + ar_atlaidi(c)
-
-print("Kopā:", round(kopa, 2))
-
+print(ar_pvn(100))
+print(ar_pvn(100, 12))
