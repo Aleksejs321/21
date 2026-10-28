@@ -1,6 +1,8 @@
-temperatūrām = [-1, -2, -3, -4, 0, 1, 2, 3, 4]
-print(temperatūrām )
-print (len(temperatūrām))
-print (sum(temperatūrām))
-print("vidējo temperatūru")
-print (sum(temperatūrām) / len(temperatūrām))
+skaitli = [4, 7, 1, 9, 10, 7]
+
+print(len(skaitli))
+print(sum(skaitli))
+print(max(skaitli))
+print(min(skaitli))
+print(sum(skaitli) / len(skaitli))
+
